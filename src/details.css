@@ -1,0 +1,45 @@
+/* Details.css */
+
+.details-container {
+    padding: 20px;
+  }
+  
+  .rule {
+    margin-bottom: 20px;
+  }
+  
+  strong {
+    color: red;
+    font-weight: bold;
+  }
+  
+  p {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: marquee 20s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* New styles for the "Go back" button */
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
