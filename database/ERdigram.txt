@@ -1,0 +1,9 @@
++-------------------+   +-----------------+   +------------------+
+|   Participant    |   |      Batch      |   |     Payment      |
++-------------------+   +-----------------+   +------------------+
+| ParticipantID(PK) |   |    BatchID(PK)  |   |   PaymentID(PK)  |
+|       Name        |   |     StartTime   |   |   ParticipantID  |
+|        Age        |   |      EndTime    |   |   PaymentDate    |
+|                   |   +-----------------+   |  EnrollmentDate  |
++-------------------+                         |      Amount      |
+                                             +------------------+
